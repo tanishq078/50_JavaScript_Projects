@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(241, 158, 102);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#password {
+    width: 400px;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: rgb(177, 227, 236);
+    color: rgb(25, 9, 199);
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    box-shadow: 0 0 18px 0 rgba(70, 58, 37, 0.6);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#password:focus {
+    outline: none;
+}
+
+.out {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    min-height: 30px; /* Set a minimum height for consistency */
+}
